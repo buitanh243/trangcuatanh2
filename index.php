@@ -9,7 +9,6 @@
     <?php 
         echo "Xin chao!";
         echo "PHP";
-        echo "!";
     ?>
 </body>
 </html>
