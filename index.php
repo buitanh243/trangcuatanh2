@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-        echo "Xin chao!";
+        echo "Xin chao!\n";
         echo "PHP";
     ?>
 </body>
