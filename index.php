@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xin chao PHP</title>
+    <title>Trang chủ</title>
 </head>
 <body>
     <?php 
-        echo "Xin chao!\n";
-        echo "PHP";
+        $i = 0;
+        while ($i<5) {
+            echo("$i<br>");
+            $i++;
+        }
+        for ($i= 0; $i< 5; $i++) {
+            echo("Tanh");
+            echo("<br>");
+            $i++;
+        }
     ?>
+    
 </body>
 </html>
