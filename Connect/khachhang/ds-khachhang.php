@@ -8,7 +8,7 @@
 <body>
     <h1>DANH SACH KHACH HANG</h1>
     <?php 
-        include_once __DIR__ . '/connect.php';
+        include_once __DIR__ . '/../connect.php';
 
         $sql = " SELECT kh_ten,kh_diachi FROM khachhang; ";
 

@@ -8,7 +8,7 @@
 <body>
     <?php
         // 1 them ket noi 
-        include_once __DIR__ . '/connect.php';
+        include_once __DIR__ . '/../connect.php';
 
         // 2 goi truy van
         $sql = "SELECT * FROM loaisanpham;"    ;
@@ -33,14 +33,23 @@
             <th>Ma LSP</th>
             <th>Ten LSP</th>
             <th>Mo ta</th>
+            <th>Hành động</th>
        </tr>
        <?php foreach($arrDSLoaiSP as $lsp): ?>
        <tr>
         <td><?=$lsp['lsp_ma'];?></td>
         <td><?=$lsp['lsp_ten']; ?></td>
         <td><?=$lsp['lsp_mota'];?></td>
+        <td>
+            <a href="./update.php?id=<?= $lsp['lsp_ma']?>">Sửa</a>
+            <a href="./delete.php?id=<?= $lsp['lsp_ma']?>">Xoá</a>
+            <!-- Lấy id để loại sản phậm -->
+        </td>
        </tr>
        <?php endforeach; ?>
     </table>
+
+    <a href="./add.php">Thêm</a>
+    <a href="./delete.php">Xoá</a>
 </body>
 </html>

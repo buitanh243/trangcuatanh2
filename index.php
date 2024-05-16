@@ -27,6 +27,7 @@
     <a href="./Xuly-form/xetdiem.php">Xét điểm</a>
     <a href="./Xuly-form/dangnhap.php">Đăng nhập</a>
     <a href="./Ham/ham.php">Hàm</a>
+    <a href="./Connect/loaisanpham/index.php">Loại sản phẩm</a>
 
 
 
